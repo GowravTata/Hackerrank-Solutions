@@ -1,0 +1,1 @@
+select id,name,countrycode,district,population from city where(countrycode='USA' AND population>100000);

@@ -1,0 +1,9 @@
+/*
+Enter your query here.
+*/
+
+SELECT ROUND(LONG_W,4)
+FROM
+STATION
+WHERE LAT_N in (SELECT MIN(LAT_N) FROM STATION where lat_n>38.7780)
+;
