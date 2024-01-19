@@ -11,5 +11,5 @@ Wor ld
 how are you
 QUESTION
 
-cat sample.txt | tr '   ' ' '
+ cat /dev/stdin |tr -s ' ' 
 
