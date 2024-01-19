@@ -35,4 +35,4 @@ Houston, Texas  2,145,146   4   Dallas-Fort Worth-Arlington, TX MSA 6,526,548   
 Philadelphia, Pennsylvania[11]  1,536,471   5   Houston-S
 QUESTION
 
-cut -d " " -f 3- sample.txt
+cut -d " " -f 3- /dev/stdin
